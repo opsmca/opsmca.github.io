@@ -1,0 +1,25 @@
+encoding: UTF-8 
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: om sharma
+job: Software engineer
+email: opsmca@gmail.com
+facebook: https://www.facebook.com/sharmaom
+linkedin: https://in.linkedin.com/in/sharmaom
+github: https://github.com/opsmca
+description: > # this means to ignore newlines until "baseurl:"
+  This website showcase the craftsmanship of a very passionate computer engineer, an entrepreneur, a learner (strictly not a RESOURCE).
+  Besides sharing technical stuff with my fellow mates, this website helps to give a shape to my digital life. I would really like to be introduced with new friends so please don’t hesitate to put your footprint on my digital life.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://opsmca.github.io/" # the base hostname & protocol for your site
+repo_name: opsmca.github.io
+github_username:  opsmca
+# Build settings
+markdown: kramdown
