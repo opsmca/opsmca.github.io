@@ -1,4 +1,3 @@
-encoding: UTF-8 
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -6,20 +5,25 @@ encoding: UTF-8
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+paginate: 10
 # Site settings
-title: om sharma
-job: Software engineer
-email: opsmca@gmail.com
-facebook: https://www.facebook.com/sharmaom
-linkedin: https://in.linkedin.com/in/sharmaom
-github: https://github.com/opsmca
+title: avik chakraborty
+job: Web Developer  •  UX and UI Designer  •  Entrepreneur
+email: avikjis27@gmail.com
+facebook: https://www.facebook.com/avikjis27
+linkedin: https://in.linkedin.com/in/avikjis27
+github: https://github.com/avikjis27
 description: > # this means to ignore newlines until "baseurl:"
   This website showcase the craftsmanship of a very passionate computer engineer, an entrepreneur, a learner (strictly not a RESOURCE).
   Besides sharing technical stuff with my fellow mates, this website helps to give a shape to my digital life. I would really like to be introduced with new friends so please don’t hesitate to put your footprint on my digital life.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://opsmca.github.io/" # the base hostname & protocol for your site
-repo_name: opsmca.github.io
-github_username:  opsmca
+url: "http://avikjis27.github.io/" # the base hostname & protocol for your site
+repo_name: avikjis27.github.io
+github_username:  avikjis27
 # Build settings
 markdown: kramdown
+gems: [jekyll-paginate,jekyll-gist]
+paginate_path: /blogs/page:num/
+sass:
+  compressed: true
